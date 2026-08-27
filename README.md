@@ -23,7 +23,7 @@ A clean load with no Triton fallback warning means the HIP kernels are active.
 ## Build details
 
 - Source: [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) at commit `69e1bcbe77c359c84b3a4589e92a7c076e33a202`
-- Build pipeline: [hcwhan/flash-attn-rocm-gfx1201-build](https://github.com/hcwhan/flash-attn-rocm-gfx1201-build) (recipes)
+- Build pipeline: [hcwhan/flash-attn-ck-rocm-gfx120x-build](https://github.com/hcwhan/flash-attn-ck-rocm-gfx120x-build) (recipes)
 - Inference-only patch: backward pass disabled (`-DFLASHATTENTION_DISABLE_BACKWARD`)
 - `OPT_DIM=32,64,128,256`, `MAX_JOBS=16`
 
