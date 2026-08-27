@@ -1,6 +1,6 @@
 # FlashAttention 2.8.4 for ROCm gfx1201 (Windows)
 
-Prebuilt **FlashAttention 2.8.4** wheel with native ROCm/HIP (CK) kernels for AMD **gfx1201** (RX 9000 series, e.g. RX 9070 XT) on **Windows**.
+Prebuilt **FlashAttention 2.8.4** wheel with native ROCm/HIP (CK) kernels for AMD **gfx1201** (Navi 48 — RX 9070 / RX 9070 XT / RX 9070 GRE, Radeon AI PRO R9700) on **Windows**.
 
 Build: `2.8.4+rocm101torch215cxx11abitrue` — Python 3.12 (cp312), torch 2.15, ROCm 10.1, cxx11 ABI.
 
